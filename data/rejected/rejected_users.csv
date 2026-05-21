@@ -1,0 +1,13 @@
+id,first_name,last_name,email,phone,password_hash,country,state,age,gender,plan_id,promocode,terms_accepted,created_at,is_verified,role,referral_code,rejection_reason
+1027,Rahim,Dubois,,+113-8074232200,$2b$12$pYzCQjzCvi1t9vyVFgohBid61z73Y5Slj9C2EfyCoKdrL0Pragiqw,Bangladesh,Dhaka,43,male,1,GLOBALICP6939,t,2026-04-14 20:02:00.000,t,user,RAHIMICP9261,invalid_email
+1060,Binta,Ivanov,,+129-9157142361,$2b$12$FxAIiKpuSjjud5MPEJwWtnleFzHfnnuwnUG9Z8aPB4MM7Qt46xHr4,Cameroon,Yaounde,50,female,4,TESTICP4154,t,2026-04-07 01:51:00.000,t,user,BINTAICP2572,invalid_email
+1081,Luka,Silva,,+140-8628750833,$2b$12$dJ8GfSLWRA0qJM5METEY2osmhCXTmMzcvXnNQpesIVhuyJ7ZmZ5DD,Croatia,Zagreb,48,male,2,REFICP6490,t,2026-01-11 05:08:00.000,t,user,LUKAICP1917,invalid_email
+1101,Carlos,Ndlovu,,+150-9286483272,$2b$12$3vgvwvOpOK4esubuC1J3qRK9xyJYgPuFVvMwBE0W0Hrc9yoUf0fue,El Salvador,San Salvador,31,male,3,TESTICP9268,t,2026-05-17 00:27:00.000,t,user,CARLOSICP9846,invalid_email
+1110,Nomsa,Smith,,+154-9834878346,$2b$12$O3hMOBBkTDBFKQ50SD2Syz6OwD8kmQfDkjEX6EoI9wqPk1FYuhoIE,Eswatini,Mbabane,20,female,5,GLOBALICP9444,t,2026-03-29 20:49:00.000,t,user,NOMSAICP1826,invalid_email
+1127,Kwame,Chen,,+163-7337723268,$2b$12$kmALsJ7m1D6wxDALAj7DVAf4sHIkxsrIDuSm4a1TxzzyUxt9e29h5,Ghana,Accra,45,male,3,TESTICP9349,t,2026-02-11 15:48:00.000,t,user,KWAMEICP7032,invalid_email
+1136,Mariama,Khan,,+167-8380098110,$2b$12$5Ya6P5iEQPHhalZaAHv9O596QcBk5V4kwivdEk8uQZ01rDqaNy557,Guinea,Conakry,47,female,5,AARAVICP6828,t,2026-05-12 10:59:00.000,t,user,MARIAMAICP5888,invalid_email
+1155,Hassan,Nguyen,,+177-6089450635,$2b$12$lqeQ0K8KEpgYJ9ZGkjfsTCT9pEwavS3W13KgQTb81OiEpT8wUm7N7,Iraq,Baghdad,51,male,2,TESTICP6426,t,2026-05-20 23:56:00.000,t,user,HASSANICP5526,invalid_email
+1159,David,Novak,,+179-8203512161,$2b$12$dOvSvSWrVsy4NxDOJ5WGiu7vMzc0jfg5DV8YTo3k3UAdLh0eVL05t,Israel,Tel Aviv,58,male,5,GLOBALICP5136,t,2026-04-26 21:08:00.000,t,user,DAVIDICP4694,invalid_email
+1163,Andre,Kim,,+101-6792107058,$2b$12$OHObV64UuZqUnbSM1W5UYI75r9HASVq7C9o4rQr9VsJcrqpOVatOZ,Jamaica,Kingston,19,male,4,,t,2026-02-15 23:29:00.000,t,user,ANDREICP4569,invalid_email
+1213,Vikash,Costa,,+126-8841486155,$2b$12$yRsymAKDMcEbtbR1xHgQMv8EbcE4DHfSS5CUo9ctW0nzah1W6BFCR,Mauritius,Port Louis,21,male,3,REFICP9046,t,2026-04-11 02:41:00.000,t,user,VIKASHICP3666,invalid_email
+1279,Abdullah,Novak,,+159-9080693021,$2b$12$nzaOxCiki2hsjnziZvORqjQ0N7HE96MT5jotYfLQqmvoi7968lwdG,Saudi Arabia,Riyadh,30,male,1,GLOBALICP2270,t,2026-02-27 16:16:00.000,t,user,ABDULLAHICP9667,invalid_email

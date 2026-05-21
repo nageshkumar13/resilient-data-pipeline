@@ -38,24 +38,24 @@ This pipeline:
 
 ```text
 resilient-data-pipeline/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── rejected/
-│
-├── logs/
-├── reports/
-│
-├── src/
-│   ├── main.py
-│   ├── loader.py
-│   ├── validator.py
-│   ├── cleaner.py
-│   └── logger_config.py
-│
-├── requirements.txt
-└── README.md
+|
++-- data/
+|   +-- raw/
+|   +-- processed/
+|   +-- rejected/
+|
++-- logs/
++-- reports/
+|
++-- src/
+|   +-- main.py
+|   +-- loader.py
+|   +-- validator.py
+|   +-- cleaner.py
+|   +-- logger_config.py
+|
++-- requirements.txt
++-- README.md
 ```
 
 ---
@@ -72,23 +72,16 @@ resilient-data-pipeline/
 
 # Output
 
-## Processed Data
-
-Clean rows are saved to:
+Running the pipeline generates:
 
 ```text
 data/processed/processed_users.csv
-```
-
-## Rejected Data
-
-Invalid rows are saved to:
-
-```text
 data/rejected/rejected_users.csv
+reports/inspection_report.txt
+logs/pipeline.log
 ```
 
-Rejected rows also include a rejection reason:
+Rejected rows also include a `rejection_reason` column:
 
 | rejection_reason |
 |------------------|
@@ -121,6 +114,8 @@ pip install -r requirements.txt
 
 ## 4. Run pipeline
 
+After activating the virtual environment, run:
+
 ```bash
 python src/main.py
 ```
@@ -144,10 +139,8 @@ python src/main.py
 
 Possible future enhancements:
 
-- PostgreSQL loading
-- Scheduled execution
-- Email alerts
-- Advanced schema validation
-- Docker support
+- Add a few more simple validation rules for required fields
+- Allow the input CSV path to be changed without editing code
+- Make the text report a little more detailed while keeping the pipeline simple
 
 This project intentionally keeps Version 1 simple and focused.
