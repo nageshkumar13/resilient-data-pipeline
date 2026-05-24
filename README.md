@@ -1,8 +1,8 @@
 # Resilient Data Pipeline
 
-A small Python ETL-style pipeline that processes messy CSV user data, validates records, separates rejected rows, and generates clean output files.
+A Python ETL-style pipeline that processes CSV user data, validates records, separates rejected rows, and generates clean output files.
 
-This project simulates a common real-world freelance scenario where businesses receive inconsistent CSV files that break reporting or database workflows.
+It is designed for a common data operations problem: inconsistent CSV files that can break reporting, imports, and downstream workflows.
 
 ---
 
@@ -60,7 +60,7 @@ resilient-data-pipeline/
 
 ---
 
-# Example Problems Handled
+# Data Issues Addressed
 
 - Missing email values
 - Invalid email formats
@@ -87,6 +87,8 @@ Rejected rows also include a `rejection_reason` column:
 |------------------|
 | invalid_email |
 | duplicate_row |
+
+The repository includes a sample input file and sample generated outputs so the pipeline can be run and verified immediately.
 
 ---
 
@@ -122,25 +124,10 @@ python src/main.py
 
 ---
 
-# Skills Demonstrated
+# Potential Enhancements
 
-- Python automation
-- Data validation
-- ETL workflow design
-- CSV processing
-- Error handling
-- Modular project structure
-- Logging and reporting
-- Freelance-style problem solving
-
----
-
-# Future Improvements
-
-Possible future enhancements:
+Possible next improvements:
 
 - Add a few more simple validation rules for required fields
 - Allow the input CSV path to be changed without editing code
 - Make the text report a little more detailed while keeping the pipeline simple
-
-This project intentionally keeps Version 1 simple and focused.
