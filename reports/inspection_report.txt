@@ -1,0 +1,19 @@
+========== ETL REPORT ==========
+
+Input Rows: 280
+
+Valid Email Rows: 268
+Final Processed Rows: 268
+
+Invalid Email Rows: 12
+Rejected Duplicate Rows: 0
+
+Total Rejected Rows: 12
+
+Processed File:
+data\processed\processed_users.csv
+
+Rejected File:
+data\rejected\rejected_users.csv
+
+================================
